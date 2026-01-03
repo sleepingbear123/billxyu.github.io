@@ -1,0 +1,11 @@
+/* Research thrust tiles */
+.thrust-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; margin-top: 1rem; }
+.thrust-item { background: #ffffff; border-radius: 12px; padding: 1.2rem; box-shadow: 0 6px 18px rgba(0,0,0,0.06); transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.thrust-item:hover { transform: translateY(-4px); box-shadow: 0 10px 26px rgba(0,0,0,0.08); }
+.thrust-icon { font-size: 2rem; }
+/* Student grid */
+.student-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.2rem; margin-top: 1rem; }
+.student-item { text-align: center; }
+.student-item img { width: 140px; height: 140px; object-fit: cover; border-radius: 50%; margin-bottom: 0.5rem; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+/* News bullets */
+.page__content ul li { margin-bottom: 0.6rem; }

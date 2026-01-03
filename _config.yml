@@ -1,0 +1,19 @@
+title: "Xiong (Bill) Yu | Academic Website"
+description: "Multiphysics geosystems and intelligent infrastructure research"
+url: "https://billxyu.github.io"
+baseurl: ""
+remote_theme: "academicpages/academicpages"
+author:
+  name: "Xiong (Bill) Yu"
+  avatar: "/assets/images/yu.jpg"
+  bio: "Chair and Opal J. and Richard A. Vanderhoof Professor, Case Western Reserve University"
+  location: "Cleveland, OH"
+  employer: "Case Western Reserve University"
+  googlescholar: "https://scholar.google.com/citations?user=8qIogR4AAAAJ"
+  email: "xxy21@case.edu"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+markdown: kramdown
+permalink: /:categories/:title/
